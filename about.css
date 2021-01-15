@@ -1,0 +1,33 @@
+.row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+.row1>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 10px;
+    flex-direction: column;
+}
+.row1>div:nth-child(2){
+    background-color: transparent;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+.dp{
+    border-radius: 50%;
+    width: 90%;
+}
+h1{
+    font-size: 50px;
+}

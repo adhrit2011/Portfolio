@@ -1,0 +1,27 @@
+.row4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row4>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;    
+    height: 70vh;
+    width: 45vw;
+}
+.mail>p,
+.social>p{
+    font-size: 22px;
+    color: black;
+    margin: 10px;
+}
+.label{
+    color: white !important;
+    font-size: 30px !important;
+}
+p>.fa{
+    font-size: 30px !important;
+}

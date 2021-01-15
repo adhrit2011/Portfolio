@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: coral;
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: white;
+    font-size: 30px;
+}
+.logo{
+    float: left;
+    padding: 14px 16px;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+/* section-styling has become the next police officer after the earlier one was fired and put in jail */
+section{
+    height: 90vh;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
